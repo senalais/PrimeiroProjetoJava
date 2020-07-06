@@ -2,7 +2,7 @@ package main.java.vo;
 
 import java.util.Date;
 
-public class Automóvel {
+public class Automovel {
 
     // ATRIBUTO
     private String marca;
@@ -10,15 +10,15 @@ public class Automóvel {
     private String cor;
     private Date Ano;
 
-    public Automóvel(String fiat, String s) {
+    public Automovel(String fiat, String s) {
     }
 
-    public Automóvel(String marca, Date ano) {
+    public Automovel(String marca, Date ano) {
         this.marca = marca;
         Ano = ano;
     }
 
-    public Automóvel() {
+    public Automovel() {
     }
 
     public String getMarca() {

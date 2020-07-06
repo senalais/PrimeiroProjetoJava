@@ -1,10 +1,9 @@
 package main.java;
 
-import main.java.vo.Automóvel;
-import main.java.vo.Concessionária;
+import main.java.vo.Automovel;
+import main.java.vo.Concessionaria;
 import main.java.vo.Pessoa;
 
-import javax.swing.table.AbstractTableModel;
 import java.util.Date;
 
 public class Main {
@@ -31,7 +30,7 @@ public class Main {
 
         // construtor sem parametro Automóvel
 
-        Automóvel a = new Automóvel();
+        Automovel a = new Automovel();
 
         a.setMarca("Chevrolet");
         a.setModelo("onix");
@@ -43,13 +42,13 @@ public class Main {
 
         // construtor com parametro Automóvel
 
-        Automóvel a2 = new Automóvel("Fiat","2009");
+        Automovel a2 = new Automovel("Fiat","2009");
 
 
 
         // construtor sem parametro Concessionária
 
-        Concessionária c = new Concessionária();
+        Concessionaria c = new Concessionaria();
 
         c.setEndereço("Ruas das Arvores,13");
         c.setGerente("Tiago Ferreira");

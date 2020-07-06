@@ -1,6 +1,6 @@
 package main.java.vo;
 
-public class Concessionária {
+public class Concessionaria {
 
     //ATRIBUTO
     private String endereço;
@@ -8,10 +8,10 @@ public class Concessionária {
     private String gerente;
 
 
-    public Concessionária() {
+    public Concessionaria() {
     }
 
-    public Concessionária(String endereço, String numeroTelefone) {
+    public Concessionaria(String endereço, String numeroTelefone) {
         this.endereço = endereço;
         this.numeroTelefone = numeroTelefone;
     }
